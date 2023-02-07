@@ -2,6 +2,15 @@
     .navbar_lateral{
         display: none;
     }
+    .navbar_logo {
+        position: absolute;
+        width: 100%;
+    }
+    .navbar_logo img{
+        position: relative;
+        left: 40%;
+        top: 0px;
+    }
     .header_h1{
         margin: 1% 0% 0% 0%
     }   
@@ -15,11 +24,36 @@
     html{
         font-size: 5px;
     }
+    .header{
+        top: -13px;
+    }
+    .header_div{
+        position: absolute;
+    }
+    .navbar_logo{
+        position: relative;
+        top: 0px;
+        content: "CORONA";
+        left: -180px;
+    }
+    .navbar_input{
+        display: block;
+    }
+    .navbar{
+        display: none;
+    }
+    .navbar_bg{
+        width: 100vw;
+        height: 87px;
+        background-color:#ed242e;
+    }
+        
 }
 @media screen and (max-width: 400px){
     html{
         font-size: 5px;
     }
+    
     .header{
         top: -13px;
     }
@@ -29,8 +63,9 @@
     .navbar{
         display: none;
     }
-    .navbar_logo{
-        display: none;
-        
+    .navbar_media{
+        display: block
     }
+
 }
+       

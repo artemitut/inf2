@@ -14,12 +14,14 @@ h1
     background: no-repeat center url(../IMG/banner.png) 
     background-size: auto 105vh
     position: relative
+    
 .navbar
     width: 100%
     background-color: #ed242e
     height: 8.7rem
     display: flex
     justify-content: space-between-
+    box-sizing: border-box
 
     &_lateral
         width: 9rem
@@ -52,6 +54,8 @@ h1
     margin: -3rem auto
     width: 15.8rem
     height: 100%
+    & img
+        margin: 0 auto
 .header_content
     margin: 3% 0% 0% 7%
     
@@ -78,3 +82,59 @@ h1
     &:hover
         background-color: #ed242e
         color: #fff
+.navbar_input
+    display: none
+    background: #ffffff00
+    width: 0px
+    height: 0px
+    &::after
+        transition: 0.5s
+        content: ""
+        position: fixed
+        background: url(../IMG/menu-burger-horizontal-svgrepo-com.svg)
+        background-position: center
+        background-repeat: no-repeat
+        background-size: 100%
+        background-color:rgba(255, 255, 255, 0) 
+        top: 10px
+        left: 75%
+        width: 50px
+        height: 45px
+        border-radius: 10px
+        border: 4.5px solid #fff
+        z-index: 100
+
+
+.navbar_media
+    width: 532px
+    height: 359px
+    background: #ed242e
+    position: fixed
+    top: 70px
+    left: 40%
+    box-sizing: border-box
+    display: none
+    -webkit-box-shadow: 0px 0px 25px -9px rgba(255,255,255,1)
+    -moz-box-shadow: 0px 0px 25px -9px rgba(255,255,255,1)
+    box-shadow: 0px 0px 25px -9px rgba(255,255,255,1)
+    transition: .3s
+    &_a 
+        transition: .3s
+        margin: 0px
+        font-size: 17px
+        width: auto
+        justify-content: left
+        color: white
+        height: 56px
+        padding: 25px 25px 0px 50px
+        text-decoration: none
+
+.navbar_input:checked   
+
+
+.navbar_input:checked + .navbar_media
+    transition: .3s
+    display: block
+    
+    
+    
