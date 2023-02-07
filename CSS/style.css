@@ -5,6 +5,7 @@ html {
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 p {
@@ -20,6 +21,7 @@ h1 {
   height: 105vh;
   background: no-repeat center url(../IMG/banner.png);
   background-size: auto 105vh;
+  position: relative;
 }
 
 .navbar {
@@ -78,7 +80,8 @@ h1 {
   line-height: 10rem;
   font-weight: bold;
   color: #fff;
-  padding: 3% 0px 70px 0px;
+  padding: 3% 0px 7rem 0px;
+  left: -4rem;
 }
 
 .header_button {
