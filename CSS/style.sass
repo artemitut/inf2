@@ -4,9 +4,10 @@ html
 body
     margin: 0
     padding: 0
+    background: #f4f4f4
 p
     margin: 0
-h1
+h1, h2, h3
     margin: 0
 .header
     width: 100%
@@ -135,6 +136,63 @@ h1
 .navbar_input:checked + .navbar_media
     transition: .3s
     display: block
+
+.about_virus
+    margin: 0 auto
+    width: 80%
+    height: auto
+    background: #fff
+    padding: 80px 50px
+    border-radius: 60px
+    top: -140px
+    left: 0px
+    position: relative
+    justify-content: center
+    display: flex
+    flex-wrap: wrap
     
-    
-    
+    &_line
+        position: absolute
+        content: ""
+        // bottom: 0px
+        background: #ed1c24
+        width: 93px
+        height: 11px
+        // left: 0
+        border-radius: 20px
+    & h2 
+        color: #353d47
+        line-height: 50px
+        font-weight: bold
+        padding: 0
+        display: inline-block
+        font-size: 3.5rem
+        margin: 0
+    & p 
+        max-width: 100%
+        height: auto
+        width: 433px
+        font-size: 1.7rem
+        padding: 35px 0px 50px 0px
+    &_right
+        width: 301px
+        img 
+            width: 301px
+            margin: 3rem auto
+
+.button
+    font-size: 1.7rem
+    background-color: #05254d
+    color: #fff
+    width: 100%
+    max-width: 275px
+    text-align: center
+    display: inline-block
+    transition: ease-in all 0.5s
+    font-weight: bold
+    height: 7.5rem
+    line-height: 7.5rem
+    color: #fff
+    text-decoration: none
+    &:hover
+        background-color: #ed1c24

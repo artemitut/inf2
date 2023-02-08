@@ -19,6 +19,12 @@
     html{
         font-size: 7px;
     }
+    .about_virus{
+        justify-content: center;
+    }
+    .about_virus_left{
+        justify-content: left;
+    }
 }
 @media screen and (max-width: 525px){
     html{
@@ -47,6 +53,20 @@
         height: 87px;
         background-color:#ed242e;
     }
+    .about_virus{
+        top: -400px;
+        left: 0px;
+        width: 75%;
+    }
+    .about_virus_right{
+        width: 300px;
+    }
+    .about_virus_right img{
+        width: 300px;
+    }
+    .about_virus_left p{
+        width: 300px;
+    }
         
 }
 @media screen and (max-width: 400px){
@@ -63,6 +83,14 @@
     .navbar{
         display: none;
     }
-
+    .about_virus_right{
+        width: 200px;
+    }
+    .about_virus_right img{
+        width: 200px;
+    }
+    .about_virus_left p{
+        width: 200px;
+    }
 }
        
