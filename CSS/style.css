@@ -1,12 +1,13 @@
 html {
   font-size: 10px;
   font-family: Poppins;
+  width: 100vw;
 }
 
 body {
   margin: 0;
   padding: 0;
-  background: #f4f4f4;
+  background: #f0f0f0;
 }
 
 p {
@@ -81,7 +82,7 @@ h1, h2, h3 {
 }
 
 .header_h1 {
-  font-size: 5rem;
+  font-size: 4.3rem;
   line-height: 10rem;
   font-weight: bold;
   color: #fff;
@@ -155,6 +156,10 @@ h1, h2, h3 {
   text-decoration: none;
 }
 
+.navbar_bg {
+  position: fixed;
+}
+
 .navbar_input:checked + .navbar_media {
   transition: 0.3s;
   display: block;
@@ -165,7 +170,7 @@ h1, h2, h3 {
   margin: 0 auto;
   width: 80%;
   height: auto;
-  background: #fff;
+  background: #ffffff;
   padding: 80px 50px;
   border-radius: 60px;
   top: -110px;
@@ -174,6 +179,7 @@ h1, h2, h3 {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
+  box-sizing: border-box;
 }
 .about_virus_line {
   position: absolute;
@@ -224,4 +230,36 @@ h1, h2, h3 {
 }
 .button:hover {
   background-color: #ed1c24;
+}
+
+.corona_is {
+  width: 100%;
+  background: rgba(255, 0, 0, 0);
+  justify-content: center;
+  top: 0px;
+  left: 0px;
+  box-sizing: border-box;
+  padding: 0px 0px 50px 50px;
+}
+
+.corona_is_img {
+  width: 56rem;
+  position: relative;
+  top: 0px;
+  left: -10px;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.corona_is_img img {
+  width: 56rem;
+  margin: 0px auto;
+}
+
+.corona_is_right h2 {
+  font-size: 4.5rem;
+}
+.corona_is_right p {
+  padding: 35px 0px 50px 0px;
+  line-height: 3rem;
 }/*# sourceMappingURL=style.css.map */
