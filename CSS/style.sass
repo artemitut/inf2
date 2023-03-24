@@ -14,7 +14,7 @@ h1, h2, h3
     width: 100%
     height: 105vh
     background: no-repeat center url(../IMG/banner.png) 
-    background-size: auto 105vh
+    background-size: 100% 105vh
     position: relative
     
 .navbar
@@ -139,12 +139,12 @@ h1, h2, h3
     position: fixed
     margin: 0 auto
     
-.navbar_bg_text{
+.navbar_bg_text
     display: none
     color: white
     font-size: 16px
     position: fixed
-}
+
 .navbar_input:checked + .navbar_media
     transition: .3s
     display: block
@@ -237,3 +237,105 @@ h1, h2, h3
     p
         padding: 35px 0px 50px 0px 
         line-height: 3rem
+
+.how_protect
+    width: 100%
+    font-family: Poppins
+    justify-content: center
+    &_h2
+        font-size: 45px
+        margin: 0 auto
+        width: 65rem
+        text-align: center
+        color: #353d47
+    p
+        text-align: center
+        width: 100%
+        padding-bottom: 60px
+        font-size: 15px
+        color: #666666
+    &_content
+        width: 90%
+        padding: 80px 0px 48px 0px
+        justify-content: center
+        display: flex
+        flex-wrap: wrap
+
+    &_carg
+        width: 31.3%
+        margin: 1%
+        display: flex
+        
+.subscribe
+    width: 100%
+    height: 90rem
+    &_top
+        background-image: url(/IMG/subscribe_logo.png)
+        background-repeat: no-repeat
+        background-size: 12rem
+        background-position-x: 3rem
+        height: 12rem
+        margin: 10px 0px
+        h2
+            text-align: center
+            padding: 5rem 0rem
+            font-size: 3.3rem
+            line-height: 4rem
+            margin: 0
+            color: #666666
+    &_bottom
+        width: 100%
+        height: 200px
+        padding: 5rem 0rem
+        background-image: url(/IMG/subscribe_bg.jpg)
+        input
+            width: 80%
+            height: 8rem
+            background-color: transparent
+            border: #fff solid 1px
+            border-radius: 30px
+            margin: 0 auto
+            color: white
+            padding: 10px
+            font-size: 2rem
+            font-family: 'Poppins'
+            font-weight: 300
+            display: block
+        a
+            padding: 0.2rem 2rem
+            border-radius: 50px
+            margin: 20px auto
+            display: block
+.footer
+    width: 100%
+    background-color: #111111
+    padding: 8rem 0rem
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+    // justify-content: space-around
+    
+    &_block
+        padding: 0px 1.5rem
+        height: 100%
+        width: 35%
+        margin-top: 20px
+        
+        h3
+            color: white
+            font-size: 2rem
+        a
+            color: #979793
+            font-size: 1.7rem
+            text-decoration: none
+            display: block
+            &:hover
+                color: red
+                transition: .5s
+        p
+            color: white
+            margin-bottom: 1.5rem
+            font-weight: 500
+            font-size: 1.5rem
+    &_block_1
+        width: 20%
